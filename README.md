@@ -2,7 +2,9 @@
 
 ### How to setup sequelize
 
-
+ENVIRONMENT VARIABLE
+`DATABASE_URL=postgres://username:password@localhost:5432/db_name
+`
 
 - Step 1: Run `npm install -g sequelize-cli`
 

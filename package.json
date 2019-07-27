@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "babel-watch server.js"
+    "dev": "babel-watch server.js",
+    "db:migrate": "sequelize db:migrate",
+    "db:reset": "sequelize db:migrate:undo:all && npm run db:migrate"
   },
   "keywords": [
     "portfolio",

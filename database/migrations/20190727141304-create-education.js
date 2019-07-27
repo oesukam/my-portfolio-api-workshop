@@ -4,12 +4,9 @@ module.exports = {
     return queryInterface.createTable('educations', {
       id: {
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
-      },
-      id: {
-        type: Sequelize.UUID
+        type: Sequelize.UUID,
+        defaultValue: Sequelize.UUIDV4
       },
       school: {
         type: Sequelize.STRING
