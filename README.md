@@ -23,3 +23,9 @@ module.exports = {
 ```
 
 - Step 4: Run `sequelize init`
+
+
+### How create sequelize model
+
+- Run: `sequelize model:create --name ModelName --attributes attrName:attrType`
+- Create the education's model: `sequelize model:create --name Education --attributes id:uuid,school:string,degree:string,fromYear:date,toYear:date,major:string`
