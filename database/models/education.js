@@ -14,7 +14,9 @@ module.exports = (sequelize, DataTypes) => {
       toYear: DataTypes.DATE,
       major: DataTypes.STRING
     },
-    {}
+    {
+      tableName: 'educations'
+    }
   );
   Education.associate = function(models) {
     // associations can be defined here
