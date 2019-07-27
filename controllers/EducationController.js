@@ -1,4 +1,4 @@
-import 'dotenv';
+import 'dotenv/config';
 import { Education } from '../database/models';
 
 export default class EducationController {
